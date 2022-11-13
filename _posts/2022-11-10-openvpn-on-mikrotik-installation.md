@@ -19,4 +19,4 @@ The first step is to creat the certificates that will be used for the Mikrotik O
 Creation of certificates
 The three certificates that will be created are the Ca, server, and client certificates. Let’s create them below.
 
-<img src="/assets/img/openvpn-mikrotik/cert_post1-1.png">
+<img src="https://szymow.github.io/jekyll/assets/img/openvpn-mikrotik/cert_post1-1.png">

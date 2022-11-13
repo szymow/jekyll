@@ -7,6 +7,6 @@ permalink: /:year/:categories/:title.html
 ---
 
 <ul>
-    <li>FanFilm &rarr; http://fanfilm.github.io
-    <li>Exodus Redux &rarr; https://i-a-c.github.io
+    <li>FanFilm &rarr; [http://fanfilm.github.io](http://fanfilm.github.io)
+    <li>Exodus Redux &rarr; [https://i-a-c.github.io](https://i-a-c.github.io)
 <ul>
