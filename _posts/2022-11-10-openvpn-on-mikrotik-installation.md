@@ -3,6 +3,7 @@ layout: post
 title:  "OpenVPN on Mikrotik Installation"
 date:   2022-11-10 10:54:43 +0100
 categories: installation openvpn
+permalink: /:year/:categories/:title.html
 ---
 
 <a href="https://forum.pclab.pl/topic/1189947-jak-otworzy%C4%87-porty/">Otwieranie portu Toya</a>

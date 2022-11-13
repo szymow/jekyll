@@ -3,6 +3,7 @@ layout: post
 title:  "Usefull software"
 date:   2022-11-10 10:54:43 +0100
 categories: software
+permalink: /:year/:categories/:title.html
 ---
 <ul>
   <li><a href="https://mobaxterm.mobatek.net/download.html">MobaXterm</a>

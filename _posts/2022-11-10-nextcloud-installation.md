@@ -3,6 +3,7 @@ layout: post
 title:  "Nextcloud installation"
 date:   2022-11-10 10:54:43 +0100
 categories: installation nextcloud
+permalink: /:year/:categories/:title.html
 ---
 
 <h1>Example installation on Ubuntu 20.04 LTS</h1>
