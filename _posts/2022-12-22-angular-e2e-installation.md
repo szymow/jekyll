@@ -15,7 +15,7 @@ permalink: /:year/:categories/:title.html
 
 <a href="https://www.browserstack.com/guide/how-to-perform-end-to-end-testing-in-angular">How to perform End to End Testing in Angular</a>
 
-<h2>Errors during running Protraktor</h2>
+<h2>Errors during running Protractor</h2>
 
 Remember about installing Java and Google Chrome <br>
 <a href="https://scriptverse.academy/tutorials/protractor-setup.html">scriptverse.academy</a> <br>
@@ -31,3 +31,33 @@ Remember about installing Java and Google Chrome <br>
         sudo apt -y install ./google-chrome-stable_current_amd64.deb
         google-chrome --version
 
+<span style="color:red">(unknown error: DevToolsActivePort file doesn't exist)</span>
+
+<h2>Hello World</h2>
+<a href="https://www.protractortest.org/#/browser-setup">Headless mode is very important!</a>
+
+conf.js
+
+        exports.config = {
+        framework: 'jasmine',
+        seleniumAddress: 'http://localhost:4444/wd/hub',
+        capabilities: {
+                browserName: 'chrome',
+                chromeOptions: {
+                args: [ "--headless", "--disable-gpu", "--window-size=800,600" ]
+                }
+        },
+        specs: ['myFirstTestSpec.js']
+        }
+
+myFirstTestSpec.js
+
+        describe('Protractor Testing', function() {
+        it('to check the page title', function() {
+                browser.ignoreSynchronization = true;
+                browser.get('https://example.com/');
+                browser.driver.getTitle().then(function(pageTitle) {
+                expect(pageTitle).toEqual('Example Domain');
+                })
+        })
+        })
