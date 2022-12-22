@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nextcloud installation"
+title:  "Angular E2E installation"
 date:   2022-12-22 12:00:00 +0100
 categories: installation angular-e2e
 permalink: /:year/:categories/:title.html
